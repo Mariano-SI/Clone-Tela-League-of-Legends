@@ -18,7 +18,10 @@
     --blue: #1B77F3;
     --red: #CF3C3F;
 }
-
+main{
+    display: flex;
+    flex-direction: row;
+}
 .login{
     display: flex;
     flex-direction: column;
@@ -182,4 +185,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+a:hover{
+    color: #000000;
+}
+.wallpaper{
+    width: 100%;
+    background-image: url('images/fundo2.jpg') ;
+    background-size:cover ;
+    background-position: right;
+    flex: 1;
 }
